@@ -1,0 +1,30 @@
+{
+  "name": "comments.app",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "^1.1.5",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domin11/19.3-redux-react-comments-app.git"
+  },
+  "author": "domin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domin11/19.3-redux-react-comments-app/issues"
+  },
+  "homepage": "https://github.com/domin11/19.3-redux-react-comments-app#readme"
+}
