@@ -1,0 +1,20 @@
+li {
+  display: block;
+  padding: 10px;
+  width: 600px;
+  border-bottom: solid 1px black;
+  text-align: left;
+  text-decoration: none;
+}
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-style: italic;
+}
+span {
+  margin-right: 30px;
+}
+button {
+  margin-right: 10px;
+  cursor: pointer;
+}
