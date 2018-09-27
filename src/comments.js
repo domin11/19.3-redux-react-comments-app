@@ -30,7 +30,7 @@ function comments(state = [], action) {
       return state.map(comment => {
         if(comment.id === action.id) {
           return {...comment, likes: comment.likes +1}
-        }else 
+        }
         return comment;
       });
 

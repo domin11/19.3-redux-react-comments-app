@@ -10,8 +10,8 @@ export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 export function addComment(text) {
   return {
     type: ADD_COMMENT,
-    text,
     id: uuid.v4(),
+    text: text,
     likes: 0,
     dislikes: 0
   }
@@ -26,11 +26,11 @@ export function removeComment(id) {
 }
 
 // Edytowanie komentarza
-export function editComment(text, id) {
+export function editComment(id, text) {
   return {
     type: EDIT_COMMENT,
-    text: text,
-    id: id
+    id: id,
+    text: text
   }
 }
 
@@ -43,10 +43,9 @@ export function thumbUpComment(id) {
 }
 
 // Łapka w dół
-export function thumbDowmComment(id, dislike) {
+export function thumbDownComment(id) {
   return {
     type: THUMB_DOWN_COMMENT,
-    id: id,
-    dislike: ++dislike
+    id: id
   }
 }
